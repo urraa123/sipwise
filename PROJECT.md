@@ -3,7 +3,7 @@
 A calm, single-screen water tracker. One tap logs a glass, a goal ring fills through the day, and a 7-day bar chart shows the trend and streak. Everything is saved in the browser (localStorage key `sipwise:v1`).
 
 ## Screen (single page)
-1. Header: wordmark, today's date (desktop), settings button.
+1. Header: wordmark with the tagline "Stay hydrated, one sip at a time", today's date (desktop), settings button.
 2. Today ring: goal ring with wave fill, glass count, ml progress, encouraging hint, big "Add a glass" button, undo.
 3. Glass size: segmented control 150 / 250 / 500 ml; each tap adds that amount.
 4. Last 7 days: bar chart with dashed goal line, today highlighted, amber droplet on goal days, tooltip on hover/tap, daily average, streak and days on goal.
@@ -25,5 +25,5 @@ A calm, single-screen water tracker. One tap logs a glass, a goal ring fills thr
 - Radius: round — cards rounded-3xl, pill buttons and segmented control.
 - Signature: the goal ring is a vessel; a light teal wave fills the inner circle and rises as you log, settling (slower, flatter) once the goal is hit; goal days get an amber droplet in the chart.
 - Imagery: no photos; SVG ring, wave and bars; simple line icons.
-- Tone: warm and short ("Two more to go.", "Goal reached. Nicely done.").
+- Tone: warm and short ("Stay hydrated, one sip at a time", "Two more to go.", "Goal reached. Nicely done.").
 - Layout: mobile-first single column; on desktop the ring card spans two rows on the left, size picker and chart on the right.
