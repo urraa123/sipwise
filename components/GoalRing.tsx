@@ -41,7 +41,7 @@ export default function GoalRing({ total, goal, glasses, size, dateLabel, onAdd,
   return (
     <section aria-labelledby="today-title" className="flex flex-col items-center rounded-3xl border border-line bg-surface p-6 shadow-[0_1px_2px_rgba(14,42,51,0.04),0_12px_32px_-16px_rgba(14,42,51,0.12)] sm:p-8 lg:row-span-2">
       <div className="flex w-full items-baseline justify-between">
-        <h1 id="today-title" className="text-xs font-semibold uppercase tracking-[0.14em] text-muted">Today</h1>
+        <h1 id="today-title" className="text-xs font-semibold uppercase tracking-[0.14em] text-muted">Today's water</h1>
         <p className="text-sm text-muted sm:hidden">{dateLabel}</p>
       </div>
 
