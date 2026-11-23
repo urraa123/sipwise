@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F3F7F6" />
+    <title>Sipwise · Water tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..700,0..100,0..1&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              background: '#F3F7F6',
+              surface: '#FFFFFF',
+              ink: '#0E2A33',
+              muted: '#4F6870',
+              line: '#D5E3E1',
+              brand: '#0F6B7A',
+              onbrand: '#FFFFFF',
+              accent: '#F2A65A'
+            },
+            fontFamily: {
+              display: ['Fraunces', 'Georgia', 'serif'],
+              sans: ['Figtree', 'ui-sans-serif', 'system-ui', 'sans-serif']
+            }
+          }
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

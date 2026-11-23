@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Figtree, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #F3F7F6;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.font-wonky {
+  font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144;
+}
+
+@keyframes sip-wave {
+  from { transform: translateX(0px); }
+  to { transform: translateX(-260px); }
+}
+
+.sip-wave {
+  animation: sip-wave 7s linear infinite;
+}
+
+.sip-wave-back {
+  animation-duration: 11s;
+  animation-direction: reverse;
+}
+
+.sip-wave.is-settled {
+  animation-duration: 24s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sip-wave { animation: none; }
+}
